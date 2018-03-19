@@ -1,4 +1,4 @@
-# Blender MTL File: 'OahackVR.blend'
+# Blender MTL File: 'Oahack2VR.blend'
 # Material Count: 4
 
 newmtl mat13
@@ -21,6 +21,17 @@ Ni 1.000000
 d 1.000000
 illum 2
 
+newmtl mat13_Heart.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.520488 0.184900
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Heart.png
+
 newmtl mat8
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
@@ -30,14 +41,3 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-
-newmtl mat8_Heart.png
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.960000 0.260000 0.210000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd /Heart.png
